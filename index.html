@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR & THREAD | Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        Free shipping on orders over $100
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">NOIR <span>& THREAD</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#collection">Collections</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#shop" class="cart">Shopping Bag (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">THE NEW SEASON COLLECTION</p>
+                <h1>STYLE THAT<br>SPEAKS.</h1>
+                <p>
+                    Elevated essentials designed for your
+                    everyday life. Discover your next favourite look.
+                </p>
+                <a href="#shop" class="btn">SHOP COLLECTION</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/hero-fashion.jpeg"
+                     alt="Model wearing modern neutral fashion">
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="shop section-padding" id="shop">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">CURATED FOR YOU</p>
+                    <h2>Featured Products</h2>
+                </div>
+                <a href="#shop" class="view-all">View all products →</a>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/oversized-tee.jpeg"
+                             alt="Oversized black T-shirt">
+                        <span class="product-tag">BESTSELLER</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Essential Oversized Tee</h3>
+                        <p class="price">$28.00</p>
+                        <button class="add-to-cart">Add to Bag</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/tailored-trousers.jpeg"
+                             alt="Tailored beige trousers">
+                    </div>
+                    <div class="product-info">
+                        <h3>Everyday Tailored Trousers</h3>
+                        <p class="price">$64.00</p>
+                        <button class="add-to-cart">Add to Bag</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/knitwear.jpeg"
+                             alt="Cream knit sweater">
+                        <span class="product-tag">NEW</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Signature Knitwear</h3>
+                        <p class="price">$52.00</p>
+                        <button class="add-to-cart">Add to Bag</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/leather-bag.jpeg"
+                             alt="Brown leather handbag">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Leather Bag</h3>
+                        <p class="price">$75.00</p>
+                        <button class="add-to-cart">Add to Bag</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Collection Banner -->
+        <section class="collection" id="collection">
+            <img src="images/new-collection.jpeg"
+                 alt="Our latest fashion collection">
+            <div class="collection-content">
+                <p class="eyebrow">MADE FOR YOUR MOMENTS</p>
+                <h2>The Everyday Edit</h2>
+                <a href="#shop" class="btn">EXPLORE COLLECTION</a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section-padding" id="about">
+            <div class="about-image">
+                <img src="images/fashion-store.jpeg"
+                     alt="Modern fashion boutique">
+            </div>
+            <div class="about-content">
+                <p class="eyebrow">OUR PHILOSOPHY</p>
+                <h2>Less, but better.</h2>
+                <p>
+                    We believe great style starts with thoughtful
+                    design, quality essentials, and pieces that
+                    make you feel confident every day.
+                </p>
+                <a href="#shop" class="text-link">Discover our collection →</a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <h2>A little style in your inbox.</h2>
+            <p>Sign up for new arrivals, style inspiration and updates.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+            <p id="newsletter-message"></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">NOIR <span>& THREAD</span></a>
+        <p>Designed for everyday living.</p>
+        <p>&copy; 2026 NOIR & THREAD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
